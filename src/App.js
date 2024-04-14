@@ -1,24 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+import Accordion from "./components/accordion/index";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    //jsx : 자바스크립트 안에서 html 코딩하듯이
+    //xml 형식으로 코딩하는 곳
+    <>
+      {/* 아코디언 컴포넌트 */}
+      <Accordion />
+    </>
   );
 }
 
